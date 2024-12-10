@@ -29,3 +29,18 @@ Spotify.
     ```bash
     python main.py
     ```
+
+## Configuración de las credenciales de Spotify
+
+Para que el programa funcione, necesitas crear un archivo `.env` en la raíz del proyecto con tus credenciales de
+Spotify. Para obtener tus credenciales:
+
+1. Crea una cuenta de desarrollador de Spotify en
+   [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
+2. Crea una nueva aplicación y obtendrás un **Client ID** y un **Client Secret**.
+3. Crea un archivo `.env` en la raíz del proyecto y agrega lo siguiente:
+
+```plaintext
+SPOTIFY_CLIENT_ID=tu_cliente_id
+SPOTIFY_CLIENT_SECRET=tu_cliente_secreto
+```
